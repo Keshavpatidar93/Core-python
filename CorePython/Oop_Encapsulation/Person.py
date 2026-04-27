@@ -34,8 +34,12 @@ per.set_name("Keshav")
 per.set_dob(datetime.datetime(2007,5,20))
 per.set_address("Maheshwar")
 
+
 print("Your name is :",per.get_name())
 print("Your date of birth is :",per.get_dob())
 print("Your address is :",per.get_address())
 print("You are",per.get_age(),"year old")
 print("Person's average age is :",Person.AVG_AGE)
+
+
+

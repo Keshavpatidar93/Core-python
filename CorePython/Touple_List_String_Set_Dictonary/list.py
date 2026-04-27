@@ -36,3 +36,7 @@ print(list)
 
 reverse = list.reverse()  # it reverse all the list elements
 print(list)
+
+t = tuple(list)  # it converts the list into tuple
+print(t)
+print(type(list))

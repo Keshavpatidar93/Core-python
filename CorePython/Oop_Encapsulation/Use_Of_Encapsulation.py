@@ -35,7 +35,7 @@ class Automobile:
 
 
     def brake(self):
-        print("Applying Accelerator !!!!!!")
+        print("Applying Brake !!!!!!")
         if self.__speed == 0:
             print("The car is already stoped...")
         else :
@@ -57,7 +57,7 @@ auto =Automobile()
 auto.set_name("BMW")
 auto.set_color("White")
 auto.set_speed(150)
-
+69
 print("The name of the car is :",auto.get_name())
 print("The color of the car is :",auto.get_color())
 print("The speed of the car is :",auto.get_speed())

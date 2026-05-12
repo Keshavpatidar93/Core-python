@@ -6,7 +6,7 @@ class Hi(Thread):
         super().__init__()
         self.name = name
 
-    def run(self):
+    def run(self):  # here run is the name same as start and we can't chance the name
         for i in range(1,11):
             print(self.name,i)
 
